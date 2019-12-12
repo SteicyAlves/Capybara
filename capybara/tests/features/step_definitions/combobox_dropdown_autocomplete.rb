@@ -6,7 +6,9 @@ Quando("interajo com dropdown e select") do
   find("#dropdown3").click
 
   #Marcando uma opção em um option
-  select "Chrome", from: "dropdown" #Digo a opção que quero marcar e depois de qual select a opção pertence
+  select "Chrome", from: "dropdown" #Digo a opção que quero marcar e depois de qual select a opção pertence (acha a opção pelo texto do option)
+  #select "Chrome", from: "dropdown", visible: false #Caso o css esteja ocultando as options do select, é necessario setar a propriedade visible: false, pois da forma acima não vai localizar
+  
   find('option[value="2"]').select_option #Irá selecionar a opção do option mapeado
 
   #select - encontra uma caixa de seleção específica mapeada
