@@ -11,7 +11,7 @@ Quando("eu faço um upload de arquivo") do
     #.pwd - Retorna o caminho do diretório de trabalho atual
     @foto = File.join(Dir.pwd, 'features/capybara.png')
     
-    #Passo o id de um input do tipo file
+    #Passo o elemento mapeado de um input do tipo file, o caminho do arquivo, e opções como exact, wait, match, etc.
     attach_file('upload', @foto, make_visible: true)
     sleep(5)
 end
