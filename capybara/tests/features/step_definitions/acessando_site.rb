@@ -5,7 +5,7 @@ Quando("acesso a url") do
 end
   
   Então("eu verifico se estou na página correta") do
-    #O comando have_current_path() verifica se ele está naquela url
+    #O comando have_current_path() verifica se a url atual é a informada
     expect(page).to have_current_path('https://automacaocombatista.herokuapp.com/treinamento/home', url: true)
 end
   
