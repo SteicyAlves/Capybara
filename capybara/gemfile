@@ -4,3 +4,4 @@ gem 'capybara'
 gem 'cucumber'
 gem 'rspec'
 gem 'selenium-webdriver'
+gem  "rack" , "2.0.8"

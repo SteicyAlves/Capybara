@@ -1,8 +1,8 @@
 Quando("eu faço um upload de arquivo") do
-    visit('/outros/uploaddearquivos')
+    #visit('/outros/uploaddearquivos')
 
-    attach_file('upload', '/Users/san/Desktop/Automacao/Capybara/capybara/tests/features/capybara.png', make_visible: true)
-    sleep(5)
+    #attach_file('upload', '/Users/san/Desktop/Automacao/Capybara/capybara/tests/features/capybara.png', make_visible: true)
+    #sleep(5)
 
     visit('/outros/uploaddearquivos')
 
