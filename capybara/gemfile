@@ -3,6 +3,13 @@ source 'http://rubygems.org'
 gem 'capybara'
 gem 'cucumber'
 gem 'rspec'
+<<<<<<< HEAD
+gem 'selenium-webdriver'
+gem  "rack" , "2.0.8"
+||||||| merged common ancestors
+gem 'selenium-webdriver'
+=======
 gem 'selenium-webdriver'
 gem  "rack" , "2.0.8"
 gem 'chromedriver-helper'
+>>>>>>> 3c5f710e61d6dd7ff21803995111f9c17178a8b1

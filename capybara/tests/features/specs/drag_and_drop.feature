@@ -1,8 +1,8 @@
 #language: pt
 
-@drag_and_drop
-Funcionalidade: Usando drag and drog
+@dragdrop
+Funcionalidade: Usando dragdrop
 
-    Cenario: Arrastando elementos
-    Dado que estou na tela de dragdrop
-    Quando movo o dragdrop para o local desejado
+    Cenário: Usar dragdrop
+    Dado que eu estou na tela de dragdrop
+    Quando movo o dragdrop
