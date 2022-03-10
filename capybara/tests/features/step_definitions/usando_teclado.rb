@@ -1,4 +1,4 @@
-Quando("realizo ações com o teclado") do
+Quando("realizo ação com o teclado") do
     visit('/users/new')
 
     #send_keys() - permite chamar ações do teclado

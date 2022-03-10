@@ -15,7 +15,7 @@ Quando("eu entro na janela e verifico a mensagem") do
         expect(@mensagem.text).to eql 'Você Abriu uma nova janela!!'
     
         #Fecho a janela
-        janela.close
+        #janela.close
         sleep(3)
     end
 
@@ -31,7 +31,7 @@ Quando("eu entro na janela e verifico a mensagem") do
         expect(@mensagem.text).to eql 'Você Abriu uma nova janela!!'
     
         #Fecho a janela
-        windows.last.close
+        #windows.last.close
         sleep(3)
 
   end
